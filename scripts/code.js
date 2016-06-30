@@ -18,7 +18,7 @@ $(function () {
         var rowToRemove = $table.bootstrapTable('getSelections')[0]
 
         //Add to log
-        $("#log").bootstrapTable('insertRow', {index: log.length, row: data[0]})
+        $("#log").bootstrapTable('insertRow', {index: log.length, row: rowToRemove})
 
         //Remove checked rows
         $table.bootstrapTable('remove', {
