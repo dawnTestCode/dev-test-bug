@@ -21,7 +21,7 @@ $(function () {
         });
 
         //Add to log
-        $("#log").bootstrapTable('insertRow', {index: log.length, row: rowToRemove})
+        $("#log").bootstrapTable('insertRow', {index: log.length, row: data[0]})
 
         //Remove checked rows
         $table.bootstrapTable('remove', {
