@@ -1,0 +1,41 @@
+
+
+<html>
+    <head>
+        <title>Dev Tester Bug</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-table.css">
+    </head>
+    <body>
+        <div id="toolbar">
+            <button id="button" class="btn btn-default">remove</button>
+        </div>
+        <h3>Beer List</h3>
+        <table id="table" class="table table-hover" data-toolbar="#toolbar" data-height="300">
+            <thead>
+                <tr>
+                    <th data-field="state" data-checkbox="true"></th>
+                    <th data-field="id">Item ID</th>
+                    <th data-field="name">Item Name</th>                    
+                    <th data-field="style">Item Style</th>                   
+                    <th data-field="rating">Item Rating</th>
+                </tr>
+            </thead>
+        </table>
+        <h3>Log</h3>
+        <table id="log" class="table table-hover">
+            <thead>
+                <tr>
+                    <th data-field="id">Item ID</th>
+                    <th data-field="name">Item Name</th>                    
+                    <th data-field="style">Item Style</th>                  
+                    <th data-field="rating">Item Rating</th>
+                </tr>
+            </thead>
+        </table>
+        <script type="text/javascript" src="scripts/jquery.js"></script>
+        <script type="text/javascript" src="scripts/bootstrap-table.js"></script>
+        <script type="text/javascript" src="scripts/data.js"></script>
+        <script type="text/javascript" src="scripts/code.js"></script>
+    </body>
+</html>
