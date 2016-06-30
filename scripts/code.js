@@ -15,8 +15,11 @@ $(function () {
     $button.click(function () {
 
         //Collect checked row
-        var rowToRemove = $table.bootstrapTable('getSelections')[0]
-
+        var rowsToRemove = $table.bootstrapTable('getSelections')
+        var idsToRemove = rowsToRemove.map(function(row) {
+          return row.id;
+        });
+        
         //Add to log
         $("#log").bootstrapTable('insertRow', {index: log.length, row: rowToRemove})
 
