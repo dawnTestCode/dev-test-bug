@@ -1,0 +1,31 @@
+{
+  "name": "dev-test-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jsdom": "^9.4.1",
+    "mocha": "^2.5.3",
+    "mocha-jsdom": "^1.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawnTestCode/dev-test-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawnTestCode/dev-test-bug/issues"
+  },
+  "homepage": "https://github.com/dawnTestCode/dev-test-bug#readme"
+}
